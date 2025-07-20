@@ -62,16 +62,16 @@ footer {
 
 .slide-in {
   opacity: 0;
-  animation: slideIn 2s forwards;
+  animation: slideIn 1s forwards;
 }
 
 .fade-in {
   opacity: 0;
-  animation: fadeIn 3s forwards;
+  animation: fadeIn 2s forwards;
 }
 
 .fade-in.delay {
-  animation-delay: 1s;
+  animation-delay: 3s;
 }
 
 .fade-in-up {
