@@ -37,12 +37,18 @@ h2 {
   color: #007acc;
 }
 
-.project {
-  background: #fff;
-  padding: 20px;
-  margin: 20px 0;
+.about-section .about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -71,15 +77,27 @@ footer {
 .fade-in-up {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInUp 2s forwards;
+  animation: fadeInUp 1.5s forwards;
 }
 
-.fade-in-up:nth-of-type(2) {
-  animation-delay: 1s;
+main .fade-in-up:nth-of-type(1) {
+  animation-delay: 0.5s;
 }
 
-.fade-in-up:nth-of-type(3) {
-  animation-delay: 2s;
+main .fade-in-up:nth-of-type(2) {
+  animation-delay: 1.5s;
+}
+
+main .fade-in-up:nth-of-type(3) {
+  animation-delay: 2.5s;
+}
+
+main .fade-in-up:nth-of-type(4) {
+  animation-delay: 3.5s;
+}
+
+main .fade-in-up:nth-of-type(5) {
+  animation-delay: 4.5s;
 }
 
 @keyframes slideIn {
@@ -104,18 +122,4 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.about-section .about-content {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.profile-pic {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
